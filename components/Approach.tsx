@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="As a software developer, I’ll collaborate with you to define the goals of your product, identify the target audience, and outline the essential features. We’ll delve into details like architecture, functionality, and content requirements. Let’s create something amazing! 🚀"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
