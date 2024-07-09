@@ -21,7 +21,7 @@ const Footer = () => {
           presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          If you're interested, please feel free to reach out to me. I'd be happy to discuss how I can assist you and explore potential collaboration.
+          If you&apos;re interested, please feel free to reach out to me. I&apos;d be happy to discuss how I can assist you and explore potential collaboration.
         </p>
         <a href="mailto:hello@ranjithvaratharajan.com">
           <MagicButton
