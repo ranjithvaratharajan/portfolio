@@ -59,12 +59,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Hi! I&apos;m Ranjith Varatharajan"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ranjith Varatharajan, an Application Development Specialist (Angular) based in Coimbatore.
+            An Application Development Specialist (Angular) based in Coimbatore.
           </p>
 
           <a href="./ranjith-resume.pdf" ref={resumeLinkRef} target="_blank"></a>
