@@ -13,6 +13,7 @@ const Hero = () => {
   };
 
   return (
+    <section id="about">
     <div className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
@@ -78,6 +79,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

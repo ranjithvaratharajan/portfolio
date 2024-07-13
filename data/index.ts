@@ -1,3 +1,10 @@
+export const navItems = [
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "Contact", link: "#contact" },
+];
+
 export const gridItems = [
   {
     id: 1,
@@ -65,36 +72,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "RISK Finance Management",
+    des: "Developing an Angular-based Bank Management App for NatWest, handling metadata management, parent and child counterparties, facilities, control checks, and transactions.",
+    img: "/natwest.png",
+    iconLists: ["/ng.svg", "/ts.svg"],
+    link: "NatWest",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "CMA/WPD Management",
+    des: "The CMA/WPD mass update module streamlines contract record updates, enhancing operational efficiency for healthcare clients and users.",
+    img: "/cmawpd.png",
+    iconLists: ["ng.svg", "/ts.svg"],
+    link: "Elevance Healthcare",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Investment Banking Management",
+    des: "Developing an Angular-based Bank Management App for Inversis, handling Investments.",
+    img: "/inversis.png",
+    iconLists: ["/ng.svg", "/ts.svg"],
+    link: "Inversis",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+    title: "Time Attendance Staffing and Scheduling",
+    des: "TASS efficiently registers, maintains, and schedules healthcare employees, ensuring effective resource management during critical moments by distributing the workload across all staff members.",
+    img: "/symplr.png",
+    iconLists: ["/ng.svg", "/ts.svg"],
+    link: "Symplr",
+  }
 ];
 
 export const testimonials = [
@@ -212,14 +219,14 @@ export const workExperience = [
   {
     id: 1,
     title: "APPLICATION DEVELOPMENT SPECIALIST - ACCENTURE",
-    desc: "I am full-stack developer working with ASP.NET Web Forms, MVC, Angular, C# and SQL Server. I am currently a front-end software engineer of a small but dedicated team in our Engineering Solutions Team. This team is responsible for troubleshooting client issues and providing fixes in a quick turn around. We work directly with our Client Support and Services department to ensure prompt delivery of fixes as well as to keep up to date on client escalations.",
+    desc: `As the Angular Technical Lead and front-end specialist, I spearhead the front-end development, managing a dedicated team. My responsibilities encompass Task Delegation, Client Interaction, Quality Assurance`,
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "TECHNICAL LEAD - L&T TS",
-    desc: "I am full-stack developer working with ASP.NET Web Forms, MVC, Angular, C# and SQL Server. I am currently a front-end software engineer of a small but dedicated team in our Engineering Solutions Team. This team is responsible for troubleshooting client issues and providing fixes in a quick turn around. We work directly with our Client Support and Services department to ensure prompt delivery of fixes as well as to keep up to date on client escalations.",
+    desc: "A Full-stack developer proficient in ASP.NET Web Forms, MVC, Angular, C#, and SQL Server. As a front-end software engineer on a dedicated team within the Engineering Solutions Team, you troubleshoot client issues and provide quick fixes, collaborating closely with Client Support and Services for prompt delivery and escalation management",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -233,7 +240,7 @@ export const workExperience = [
   {
     id: 4,
     title: "SOFTWARE ENGINEER - COGWAVE",
-    desc: "Created frontend web applications to reduce redundant or inefficient procedures and processes. Maintained a high level of quality. Worked on large projects while maintaining deadline and high quality. Worked on back-end hotel/room reservation processes for normal work day. Worked directly with clients to document and program custom hotel/room policies. Traveled to client sites to train client on using solutions. Worked directly with clients to analyze and trouble shoot payment issues in a client support",
+    desc: "Developed efficient frontend web applications, ensuring high quality and meeting project deadlines. Collaborated with clients to customize hotel and room policies, providing training and troubleshooting support. Addressed payment issues directly with clients in a client support role.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
