@@ -210,8 +210,8 @@ export const companies = [
   },
   {
     id: 7,
-    name: "RBS",
-    nameImg: "/rbs.svg",
+    name: "NatWest",
+    nameImg: "/natwest-logo.svg",
   },
 ];
 
