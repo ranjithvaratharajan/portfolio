@@ -205,8 +205,8 @@ export const companies = [
   },
   {
     id: 6,
-    name: "Banco Macro",
-    nameImg: "/marco.svg",
+    name: "Banca March",
+    nameImg: "/banca-march.svg",
   },
   {
     id: 7,
