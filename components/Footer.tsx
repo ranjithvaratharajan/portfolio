@@ -23,7 +23,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           If you&apos;re interested, please feel free to reach out to me. I&apos;d be happy to discuss how I can assist you and explore potential collaboration.
         </p>
-        <a href="mailto:hello@ranjithvaratharajan.com">
+        <a href="mailto:ranjith.varatharajan@proton.me">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
